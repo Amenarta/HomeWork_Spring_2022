@@ -41,13 +41,24 @@ else
             Console.WriteLine("Это среда");
     }
 
-    */
+    
 
     // Задача №4: Написать прогрумму, которая на вход принимает число N, на выходе показывает все целые числа в промежутке от -N до N.
 
     Console.Write("Введите целое число: ");
     int num = Convert.ToInt32(Console.ReadLine());
-    int current = -1 * num;
+    int current; 
+
+    if (num <0)
+    {
+        current = num;
+        num = num * (-1);
+    }
+
+    else
+    {
+        current = -1 * num;
+    }
 
     while (current <= num)
     {
@@ -55,6 +66,21 @@ else
         current ++;
     }
 
+    
+
+ //Задача №5: Написать программу, которая на вход принимает 3-хзначное число, а на выходе показывает последнюю цифру этого числа.
 
 
+Console.Write("Введите целое число: ");
+int num = Convert.ToInt32(Console.ReadLine());
+
+if(num <100 || num > 999)
+    Console.WriteLine("Неправильно заданный диапозон чисел");
+else 
+{
+    int a = num % 10;
+    Console.WriteLine("последнее число введенного числа " + a);
+}
+
+*/
     
