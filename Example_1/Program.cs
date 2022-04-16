@@ -43,6 +43,18 @@ else
 
     */
 
-    // Задача №4:
+    // Задача №4: Написать прогрумму, которая на вход принимает число N, на выходе показывает все целые числа в промежутке от -N до N.
+
+    Console.Write("Введите целое число: ");
+    int num = Convert.ToInt32(Console.ReadLine());
+    int current = -1 * num;
+
+    while (current <= num)
+    {
+        Console.Write(current + " ");
+        current ++;
+    }
+
+
 
     
