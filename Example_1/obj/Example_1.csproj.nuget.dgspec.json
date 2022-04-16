@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ирина\\Desktop\\Study\\Seminar 11.04\\Example_1\\Example_1.csproj": {}
+    "C:\\Users\\Manager11\\Desktop\\Study\\Seminat 11.04\\Example_1\\Example_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ирина\\Desktop\\Study\\Seminar 11.04\\Example_1\\Example_1.csproj": {
+    "C:\\Users\\Manager11\\Desktop\\Study\\Seminat 11.04\\Example_1\\Example_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ирина\\Desktop\\Study\\Seminar 11.04\\Example_1\\Example_1.csproj",
+        "projectUniqueName": "C:\\Users\\Manager11\\Desktop\\Study\\Seminat 11.04\\Example_1\\Example_1.csproj",
         "projectName": "Example_1",
-        "projectPath": "C:\\Users\\Ирина\\Desktop\\Study\\Seminar 11.04\\Example_1\\Example_1.csproj",
-        "packagesPath": "C:\\Users\\Ирина\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ирина\\Desktop\\Study\\Seminar 11.04\\Example_1\\obj\\",
+        "projectPath": "C:\\Users\\Manager11\\Desktop\\Study\\Seminat 11.04\\Example_1\\Example_1.csproj",
+        "packagesPath": "C:\\Users\\Manager11\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manager11\\Desktop\\Study\\Seminat 11.04\\Example_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Ирина\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Manager11\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
