@@ -51,14 +51,17 @@ else
 
 Console.Write("Введите целое число: ");
 int number = Convert.ToInt32(Console.ReadLine());
+int current = 2;
 
 if (number%2 == 0)
-    Console.WriteLine("number");
-
-
-while (number > 1)
 {
-    Console.Write(number + " ");
-    number ++;
+    current = number +=2;
+    Console.WriteLine("number");
+} 
+
+while (current <= number)
+{
+    Console.Write(current + " ");
+    current = current +=2;
 }
 
